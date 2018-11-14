@@ -1,0 +1,118 @@
+/* Main Style */
+
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+
+.logo-xs {
+  max-width: 150px;
+  max-height: 100px;
+  padding: .5em;
+}
+
+.logo-ewk-main {
+  max-width: 189px;
+  max-height: 189px;
+}
+
+.claim {
+  max-width: 450px;
+}
+
+.bg-blue {
+  background-color: #1785BA;
+}
+
+.text-blue {
+  color: #1785BA;
+}
+
+.text-white {
+  color: white;
+}
+
+.card-header > h4 {
+  text-transform: uppercase;
+  color: #1785BA;
+}
+
+.pricing-card-title {
+  font-size: 1.1em;
+}
+
+a {
+  color: #1785BA;
+}
+
+a.disabled {
+  color: grey;
+  text-decoration: line-through;
+}
+
+.btn-outline-primary {
+  color: #1785BA;
+  border-color: #1785BA;
+}
+
+.btn-outline-primary:hover {
+  background-color: #1785BA;
+  border-color: #1785BA;
+}
+
+.btn-primary {
+  background-color: #1785BA;
+  border-color: #1785BA;
+}
+.btn-primary:hover {
+  background-color: #1785c9;
+  border-color: #1785c9;
+}
+
+span.oi {
+  font-size: .7em;
+}
+
+div.full {
+  width: 100%;
+  overflow: hidden;
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+#main-nav {
+  color: #1785BA!important;
+}
+
+#main-nav > a {
+  text-transform: uppercase;
+  color: #1785BA!important;
+  font-size: 1.5em;
+  font-weight: 300;
+}
